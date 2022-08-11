@@ -1,0 +1,116 @@
+
+
+body {
+    background-color:#faf1e6;
+    }
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1,h3{
+font-family: 'Noto Sans', sans-serif;;
+font-size: 30px;
+font-weight: lighter;
+}
+
+label{
+    font-family: 'Noto Sans', sans-serif;;
+    font-size: 30px;
+}
+.text-input{
+    background-color:#faf1e6;
+    border:none;
+    padding:12px 20px;
+}
+.btn {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    background-color: #FB743E;
+    border: none;
+    
+    flex: 1;
+    }
+.item{
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Noto Sans', sans-serif;;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+.selected{
+    flex:4;
+}
+.selected h4{
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+.selected .par{
+    font-size:20px;
+    transition: all 1s ease-in;
+}
+.selected .price{
+    font-size:35px;
+    transition: all 1s ease-in;
+}
+h4{
+    position: absolute;
+    top:15px;
+    left:40px;
+    background-color: white;
+    color:black;
+    font-size:0px;
+}
+.par{
+    position: absolute;
+    top: 100px;
+    left:40px;
+    background-color: white;
+    color:black;
+    font-size:0px;
+}
+.price{
+    position: absolute;
+    bottom: 40px;
+    left:40px;
+    background-color: white;
+    color:black;
+    font-size:0px;
+}
+.container{
+    display: flex;
+}
+.one {
+    background-image: url(services.jpg);
+    }
+    
+    .two {
+    background-image: url(trapped.jpg);
+    }
+    
+    .three {
+    background-image: url(blood.jpg);
+    }
+    
+    .four {
+    background-image: url(planner.jpg);
+    }
+    
+    .five {
+    background-image: url(loneliness.jpg);
+    }
+    
+    .six {
+    background-image: url(news.jpg);
+    }
+    .seven {
+    background-image: url(polar.jpg);
+    }
+    .eight {
+        background-image: url(hands.jpg);
+        }
+     .nine {
+            background-image: url(create.jpg);
+            }
